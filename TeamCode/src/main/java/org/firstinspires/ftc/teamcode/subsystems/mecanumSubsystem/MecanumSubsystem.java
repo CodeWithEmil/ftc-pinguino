@@ -131,10 +131,6 @@ public class MecanumSubsystem extends SubsystemBase {
         return Rotation2d.fromDegrees(imu.getRobotYawPitchRollAngles().getYaw(AngleUnit.DEGREES));
     }
 
-    private void pedroPathingTest() {
-        new FollowPathCommand();
-    }
-
     // Setup //
 
     private void motorSetup() {
